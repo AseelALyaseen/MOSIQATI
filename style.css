@@ -456,3 +456,65 @@ body{
 
     font-weight:bold;
 }
+.about-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding-top:120px;
+}
+
+.about-box{
+
+    width:700px;
+
+    background:#1b1b1b;
+
+    padding:50px;
+
+    border-radius:20px;
+
+    border:1px solid #6e562c;
+
+    text-align:center;
+}
+
+.about-box h1{
+
+    color:#d4af63;
+
+    margin-bottom:30px;
+
+    font-size:50px;
+}
+
+.about-box p{
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+    line-height:1.8;
+}
+/* PROMO ANIMATION */
+
+.promo{
+
+    text-align:center;
+
+    margin-bottom:40px;
+}
+
+.promo img{
+
+    width:250px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 20px rgba(212,175,99,0.4);
+}
